@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Narro - Public Information</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d1110;
+      --card: #151b19;
+      --text: #f3f5f2;
+      --muted: #a9b2ad;
+      --line: #26302c;
+      --accent: #9fd8b3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top left, #1d3028 0, var(--bg) 44%);
+      color: var(--text);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 72px 0;
+    }
+
+    .hero {
+      padding: 40px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: color-mix(in srgb, var(--card) 92%, transparent);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(42px, 10vw, 76px);
+      line-height: 0.95;
+      letter-spacing: -0.06em;
+    }
+
+    h2 {
+      margin: 32px 0 10px;
+      font-size: 22px;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 20px;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .link-card {
+      display: block;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.035);
+    }
+
+    .link-card strong {
+      display: block;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .link-card span {
+      display: block;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <h1>Narro</h1>
+      <p>A privacy-first, local-first voice journal for iPhone.</p>
+      <p>Capture thoughts, review what was captured, and keep your journal under your control.</p>
+      <p>Your data stays under your control unless you choose to export, share, or send it.</p>
+
+      <div class="links" aria-label="Policy links">
+        <a class="link-card" href="./privacy/">
+          <strong>Privacy Policy</strong>
+          <span>How Narro handles local journal data, transcription, exports, support, and permissions.</span>
+        </a>
+        <a class="link-card" href="./support/">
+          <strong>Support</strong>
+          <span>How to get help and what diagnostic reports do not include by default.</span>
+        </a>
+      </div>
+
+      <h2>Product</h2>
+      <ul>
+        <li>Voice notes and journal workflow for iPhone.</li>
+        <li>Apple Speech and Local Whisper transcription options.</li>
+        <li>Optional saved audio when you choose to keep a recording.</li>
+        <li>App Lock support through Apple device authentication.</li>
+      </ul>
+
+      <footer>
+        Product: Narro. Developer: Vladimir Papazov. Country: Belgium.
+      </footer>
+    </section>
+  </main>
+</body>
+</html>

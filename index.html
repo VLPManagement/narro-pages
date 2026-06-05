@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=./narro/">
+  <title>Narro</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d1110;
+      --card: #151b19;
+      --text: #f3f5f2;
+      --muted: #a9b2ad;
+      --line: #26302c;
+      --accent: #9fd8b3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at top, #1b2822 0, var(--bg) 46%);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(640px, calc(100% - 32px));
+      padding: 32px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: color-mix(in srgb, var(--card) 92%, transparent);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(32px, 8vw, 56px);
+      line-height: 1;
+      letter-spacing: -0.05em;
+    }
+
+    p {
+      margin: 0 0 18px;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Narro</h1>
+    <p>A privacy-first, local-first voice journal for iPhone.</p>
+    <p>If you are not redirected automatically, open <a href="./narro/">the Narro public information page</a>.</p>
+  </main>
+</body>
+</html>
