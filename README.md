@@ -1,13 +1,18 @@
-# Narro Public Site
+# Narro Public Policy Site
 
-This folder contains a minimal static public-site package for temporary GitHub Pages hosting of Narro policy and support URLs.
+This repository hosts the current public GitHub Pages policy URLs for Narro while a permanent domain may be added later.
+
+## Current Public URLs
+
+- Privacy Policy: https://vlpmanagement.github.io/narro-pages/narro/privacy/
+- Support: https://vlpmanagement.github.io/narro-pages/narro/support/
 
 ## Pages
 
 - `/` links to `/narro/`
 - `/narro/` links to Narro Privacy and Support pages
-- `/narro/privacy/` is based on `docs/legal/NARRO_PRIVACY_POLICY_DRAFT.md`
-- `/narro/support/` is based on `docs/legal/NARRO_SUPPORT_POLICY_DRAFT.md`
+- `/narro/privacy/` hosts the Narro Privacy Policy
+- `/narro/support/` hosts Narro Support information
 
 ## Constraints
 
@@ -23,12 +28,6 @@ This folder contains a minimal static public-site package for temporary GitHub P
 - No backend
 - No user data collection
 
-## Temporary Placeholders
+## Notes
 
-The public pages intentionally keep unresolved public contact and policy values as placeholders:
-
-- `EFFECTIVE_DATE_TBD`
-- `SUPPORT_EMAIL_TBD`
-- `PRIVACY_URL_TBD`
-
-Do not invent legal/contact values before they are approved.
+These GitHub Pages URLs are the current public policy URLs for TestFlight/App Store use. A future permanent domain migration may happen later.
